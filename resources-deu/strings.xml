@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string id="AppName">Beni</string>
+
+    <!-- German labels of the editor styles. The watch face itself is German
+         regardless of the device language (DESIGN.md, section 3); these are
+         only the menu entries. See resources/configs/watchface.xml. -->
+    <string id="StyleFull5K">Voll · 5 km</string>
+    <string id="StyleFull10K">Voll · 10 km</string>
+    <string id="StyleFullHM">Voll · HM</string>
+    <string id="StyleFullMar">Voll · Marathon</string>
+    <string id="StyleSoft5K">Gedämpft · 5 km</string>
+    <string id="StyleSoft10K">Gedämpft · 10 km</string>
+    <string id="StyleSoftHM">Gedämpft · HM</string>
+    <string id="StyleSoftMar">Gedämpft · Marathon</string>
+    <string id="StyleCalm5K">Ruhig · 5 km</string>
+    <string id="StyleCalm10K">Ruhig · 10 km</string>
+    <string id="StyleCalmHM">Ruhig · HM</string>
+    <string id="StyleCalmMar">Ruhig · Marathon</string>
+</resources>

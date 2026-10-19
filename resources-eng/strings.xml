@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string id="AppName">Beni</string>
+
+    <!-- The styles of the watch face editor, the only configuration of this
+         watch face. Twelve of them, because the editor only knows one selection
+         list and color scheme and race distance have to share it.
+         See resources/configs/watchface.xml. -->
+    <string id="StyleFull5K">Full · 5 km</string>
+    <string id="StyleFull10K">Full · 10 km</string>
+    <string id="StyleFullHM">Full · HM</string>
+    <string id="StyleFullMar">Full · Marathon</string>
+    <string id="StyleSoft5K">Muted · 5 km</string>
+    <string id="StyleSoft10K">Muted · 10 km</string>
+    <string id="StyleSoftHM">Muted · HM</string>
+    <string id="StyleSoftMar">Muted · Marathon</string>
+    <string id="StyleCalm5K">Calm · 5 km</string>
+    <string id="StyleCalm10K">Calm · 10 km</string>
+    <string id="StyleCalmHM">Calm · HM</string>
+    <string id="StyleCalmMar">Calm · Marathon</string>
+</resources>

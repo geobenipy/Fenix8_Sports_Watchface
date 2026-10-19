@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The fenix 8 watch face editor.
+         It is the only way to switch a watch face directly on the wrist: per
+         Garmin's docs, app settings from settings.xml can only be edited in
+         Garmin Connect and Garmin Express.
+
+         The editor only knows **one** selection list, though. Both decisions -
+         color scheme and race distance - therefore have to share one, and that
+         means: their product. 3 schemes x 4 distances = 12 entries.
+
+         The id is the number returned by WatchFaceConfig.getSettings().styleId.
+         It is encoded as  id = scheme * 4 + distance  - the same calculation is
+         in BeniView.applyConfiguration and may only be changed together with
+         this file.
+
+              Scheme: 0 Full   1 Muted   2 Calm
+            Distance: 0 5 km   1 10 km   2 HM     3 Marathon -->
+    <watchface-config>
+        <styles>
+            <style id="0"  label="@Strings.StyleFull5K"/>
+            <style id="1"  label="@Strings.StyleFull10K" default="true"/>
+            <style id="2"  label="@Strings.StyleFullHM"/>
+            <style id="3"  label="@Strings.StyleFullMar"/>
+
+            <style id="4"  label="@Strings.StyleSoft5K"/>
+            <style id="5"  label="@Strings.StyleSoft10K"/>
+            <style id="6"  label="@Strings.StyleSoftHM"/>
+            <style id="7"  label="@Strings.StyleSoftMar"/>
+
+            <style id="8"  label="@Strings.StyleCalm5K"/>
+            <style id="9"  label="@Strings.StyleCalm10K"/>
+            <style id="10" label="@Strings.StyleCalmHM"/>
+            <style id="11" label="@Strings.StyleCalmMar"/>
+        </styles>
+    </watchface-config>
+</resources>
